@@ -27,6 +27,8 @@ a {
 input {
   font-size: 20px;
   padding-left: 10px;
+  font-family: Cambria, Georgia, serif;
+  color: #8a8888;
 }
 input[type="text"] {
   -webkit-box-sizing: border-box;
@@ -73,7 +75,8 @@ header ul.menu {
   flex-direction: row;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 80px;
 }
 
 header ul.menu li {
@@ -120,6 +123,8 @@ header li a:hover {
   align-items: flex-end;
   width: 650px;
   height: 35px;
+  padding: 5px;
+  margin-left: 110px;
 }
 
 .busca button {
@@ -127,6 +132,9 @@ header li a:hover {
   background: #f07c00;
   border: 1px solid #f07c00;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .busca img {
